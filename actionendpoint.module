@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains actionendpoint.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function actionendpoint_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the actionendpoint module.
+    case 'help.page.actionendpoint':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Rest api endpoints for app') . '</p>';
+      return $output;
+
+    default:
+  }
+}

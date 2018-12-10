@@ -1,0 +1,5 @@
+name: 'actionendpoint'
+type: module
+description: 'Rest api endpoints for app'
+core: 8.x
+package: 'Custom'

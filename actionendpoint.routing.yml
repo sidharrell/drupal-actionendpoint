@@ -1,0 +1,8 @@
+actionendpoint.getLatestNodes:
+ path: 'api/rest-endpoint/latest'
+ defaults:
+   _controller: '\Drupal\actionendpoint\Controller\CustomRestController::getLatestNodes'
+ requirements:
+   _access: 'TRUE'
+ options:
+   no_cache: 'TRUE'

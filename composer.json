@@ -1,0 +1,14 @@
+{
+  "name": "drupal/actionendpoint",
+  "type": "drupal-module",
+  "description": "Rest api endpoints for app",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/actionendpoint",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/actionendpoint",
+    "source": "http://cgit.drupalcode.org/actionendpoint"
+  },
+  "require": { }
+}
